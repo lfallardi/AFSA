@@ -86,4 +86,36 @@ hr {
 input, select {
   vertical-align: middle; }
 
+body {
+  font-family: "Open Sans", sans-serif; }
+
+.navbar {
+  padding: 10px 0px;
+  margin: 0px;
+  box-shadow: none; }
+
+.navbar-default {
+  background: white;
+  border: none;
+  border-radius: 0px;
+  /*
+  img{
+  	-webkit-transition: 2s;
+  	-moz-transition: 2s;
+  	transition: 2s;
+  	opacity: 1;
+  	&:hover{
+  		opacity: 0.7;
+  		-webkit-transition: 1s;
+  		-moz-transition: 1s;
+  		transition: 1s;
+  	}
+  }
+  */ }
+  .navbar-default .navbar-nav li a {
+    color: black;
+    border: none; }
+    .navbar-default .navbar-nav li a:hover {
+      color: blue; }
+
 /*# sourceMappingURL=style.css.map */
